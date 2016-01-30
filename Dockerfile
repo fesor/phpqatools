@@ -6,6 +6,9 @@ RUN apt-get update \
 RUN wget https://phar.phpunit.de/phploc.phar \
     && chmod +x phploc.phar \
     && mv phploc.phar /usr/local/bin/phploc
+RUN wget https://github.com/Halleck45/PhpMetrics/raw/v1.8.3/build/phpmetrics.phar \
+    && chmod +x phpmetrics.phar \
+    && mv phpmetrics.phar /usr/local/bin/phpmetrics
 
 WORKDIR /srv
 
