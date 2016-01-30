@@ -3,7 +3,7 @@ Php QA Tools
 
 This docker container includes most useful Quality Assurance Tools.
 
-Included in this package are:
+Currently these tools ara available:
 
  - [PHPLoc](https://github.com/sebastianbergmann/phploc)
  - [PHPMetrics](https://github.com/Halleck45/PhpMetrics)
