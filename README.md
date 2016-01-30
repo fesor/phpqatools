@@ -26,6 +26,6 @@ You've got the idea.
 
 ## Todo
 
-Add more tools
+Add more tools like Php_CodeSniffer, phpmd, cpd and other.
 
 
